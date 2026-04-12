@@ -28,7 +28,7 @@ public class Program {
             String line = br.readLine();
 
             while(line != null) {
-                String fields[] = line.split(",");
+                String[] fields = line.split(",");
                 employeeList.add(new Employee(fields[0], fields[1], Double.parseDouble(fields[2])));
                 line = br.readLine();
             }
