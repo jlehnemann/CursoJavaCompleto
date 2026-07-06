@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CursoJavaCompleto.iml" filepath="$PROJECT_DIR$/.idea/CursoJavaCompleto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java01-saidadados/java01-saidadados.iml" filepath="$PROJECT_DIR$/java01-saidadados/java01-saidadados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java02-entradadados1/java02-entradadados1.iml" filepath="$PROJECT_DIR$/java02-entradadados1/java02-entradadados1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java03-exerciciosmod4/java03-exerciciosmod4.iml" filepath="$PROJECT_DIR$/java03-exerciciosmod4/java03-exerciciosmod4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java04-exerciciosmod5/java04-exerciciosmod5.iml" filepath="$PROJECT_DIR$/java04-exerciciosmod5/java04-exerciciosmod5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java05-exerciciosmod6-1/java05-exerciciosmod6-1.iml" filepath="$PROJECT_DIR$/java05-exerciciosmod6-1/java05-exerciciosmod6-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java06-exerciciosmod6-2/java06-exerciciosmod6-2.iml" filepath="$PROJECT_DIR$/java06-exerciciosmod6-2/java06-exerciciosmod6-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java07-dowhile/java07-dowhile.iml" filepath="$PROJECT_DIR$/java07-dowhile/java07-dowhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java09-poo-example2/java09-poo-example2.iml" filepath="$PROJECT_DIR$/java09-poo-example2/java09-poo-example2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java10-exerciciopoo1/java10-exerciciopoo1.iml" filepath="$PROJECT_DIR$/java10-exerciciopoo1/java10-exerciciopoo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java11-exerciciopoo2/java11-exerciciopoo2.iml" filepath="$PROJECT_DIR$/java11-exerciciopoo2/java11-exerciciopoo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java11-exerciciopoo3/java11-exerciciopoo3.iml" filepath="$PROJECT_DIR$/java11-exerciciopoo3/java11-exerciciopoo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java12-exerciciomembrosestaticos/java12-exerciciomembrosestaticos.iml" filepath="$PROJECT_DIR$/java12-exerciciomembrosestaticos/java12-exerciciomembrosestaticos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java13-exerciciosmod9/java13-exerciciosmod9.iml" filepath="$PROJECT_DIR$/java13-exerciciosmod9/java13-exerciciosmod9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java14-exerciciovetores1/java14-exerciciovetores1.iml" filepath="$PROJECT_DIR$/java14-exerciciovetores1/java14-exerciciovetores1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java15-exerciciovetores2/java15-exerciciovetores2.iml" filepath="$PROJECT_DIR$/java15-exerciciovetores2/java15-exerciciovetores2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java16-exerciciovetores3/java16-exerciciovetores3.iml" filepath="$PROJECT_DIR$/java16-exerciciovetores3/java16-exerciciovetores3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java17-exerciciovetores4/java17-exerciciovetores4.iml" filepath="$PROJECT_DIR$/java17-exerciciovetores4/java17-exerciciovetores4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java18-exerciciovetores5/java18-exerciciovetores5.iml" filepath="$PROJECT_DIR$/java18-exerciciovetores5/java18-exerciciovetores5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java19-exerciciovetores6/java19-exerciciovetores6.iml" filepath="$PROJECT_DIR$/java19-exerciciovetores6/java19-exerciciovetores6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java20-exerciciovetores7/java20-exerciciovetores7.iml" filepath="$PROJECT_DIR$/java20-exerciciovetores7/java20-exerciciovetores7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java21-exerciciovetores8/java21-exerciciovetores8.iml" filepath="$PROJECT_DIR$/java21-exerciciovetores8/java21-exerciciovetores8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java22-exerciciovetores9/java22-exerciciovetores9.iml" filepath="$PROJECT_DIR$/java22-exerciciovetores9/java22-exerciciovetores9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java23-exerciciovetores10/java23-exerciciovetores10.iml" filepath="$PROJECT_DIR$/java23-exerciciovetores10/java23-exerciciovetores10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java24-exerciciolistas1/java24-exerciciolistas1.iml" filepath="$PROJECT_DIR$/java24-exerciciolistas1/java24-exerciciolistas1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java24-exerciciolistas1-resolucaoprof/java24-exerciciolistas1-resolucaoprof.iml" filepath="$PROJECT_DIR$/java24-exerciciolistas1-resolucaoprof/java24-exerciciolistas1-resolucaoprof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java25-exerciciomatrizes1/java25-exerciciomatrizes1.iml" filepath="$PROJECT_DIR$/java25-exerciciomatrizes1/java25-exerciciomatrizes1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java26-exerciciomatrizes1-v2/java26-exerciciomatrizes1-v2.iml" filepath="$PROJECT_DIR$/java26-exerciciomatrizes1-v2/java26-exerciciomatrizes1-v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java27-dataHora/java27-dataHora.iml" filepath="$PROJECT_DIR$/java27-dataHora/java27-dataHora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java28-exerciciocomposicao/java28-exerciciocomposicao.iml" filepath="$PROJECT_DIR$/java28-exerciciocomposicao/java28-exerciciocomposicao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java29-exercicioResolvido/java29-exercicioResolvido.iml" filepath="$PROJECT_DIR$/java29-exercicioResolvido/java29-exercicioResolvido.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java30-exercicioMetodosClassesAbstratos/java30-exercicioMetodosClassesAbstratos.iml" filepath="$PROJECT_DIR$/java30-exercicioMetodosClassesAbstratos/java30-exercicioMetodosClassesAbstratos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java30-exercicioPolimorfismo/java30-exercicioPolimorfismo.iml" filepath="$PROJECT_DIR$/java30-exercicioPolimorfismo/java30-exercicioPolimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java31-exercicioExcecoes/java31-exercicioExcecoes.iml" filepath="$PROJECT_DIR$/java31-exercicioExcecoes/java31-exercicioExcecoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java32-exercicioArquivos/java32-exercicioArquivos.iml" filepath="$PROJECT_DIR$/java32-exercicioArquivos/java32-exercicioArquivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java33-exercicioInterface1/java33-exercicioInterface1.iml" filepath="$PROJECT_DIR$/java33-exercicioInterface1/java33-exercicioInterface1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java34-exercicioSet/java34-exercicioSet.iml" filepath="$PROJECT_DIR$/java34-exercicioSet/java34-exercicioSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java35-exercicioSet2/java35-exercicioSet2.iml" filepath="$PROJECT_DIR$/java35-exercicioSet2/java35-exercicioSet2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java36-exercicioMap/java36-exercicioMap.iml" filepath="$PROJECT_DIR$/java36-exercicioMap/java36-exercicioMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java37-exercicioLambda-ProgramacaoFuncional/java37-exercicioLambda-ProgramacaoFuncional.iml" filepath="$PROJECT_DIR$/java37-exercicioLambda-ProgramacaoFuncional/java37-exercicioLambda-ProgramacaoFuncional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java38-jdbc1/java38-jdbc1.iml" filepath="$PROJECT_DIR$/java38-jdbc1/java38-jdbc1.iml" />
+    </modules>
+  </component>
+</project>
