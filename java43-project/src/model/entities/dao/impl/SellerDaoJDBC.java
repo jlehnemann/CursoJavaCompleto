@@ -1,11 +1,11 @@
 package model.entities.dao.impl;
 
 import model.entities.Seller;
-import model.entities.dao.SellerDAO;
+import model.entities.dao.SellerDao;
 
 import java.util.List;
 
-public class SellerDAOJDBC implements SellerDAO {
+public class SellerDaoJDBC implements SellerDao {
 
     @Override
     public void insert(Seller obj) {

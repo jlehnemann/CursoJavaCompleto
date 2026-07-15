@@ -2,8 +2,8 @@ package application;
 
 import model.entities.Department;
 import model.entities.Seller;
-import model.entities.dao.DAOFactory;
-import model.entities.dao.SellerDAO;
+import model.entities.dao.DaoFactory;
+import model.entities.dao.SellerDao;
 
 
 import java.time.LocalDate;
@@ -22,7 +22,7 @@ public class Program {
                 LocalDate.parse("21/11/1978", dtf1), 3000.0, obj);
 
         //instanciação usando DAOFactory
-        SellerDAO sellerDAO = DAOFactory.createSellerDAO();
+        SellerDao sellerDAO = DaoFactory.createSellerDAO();
 
         System.out.println(obj);
         System.out.println(seller);
