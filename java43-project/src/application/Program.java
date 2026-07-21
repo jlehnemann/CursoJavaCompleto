@@ -11,11 +11,10 @@ import model.entities.dao.SellerDao;
 public class Program {
     public static void main(String[] args) {
 
-
-
-
         //instanciação usando DAOFactory
         SellerDao sellerDAO = DaoFactory.createSellerDAO();
+
+        System.out.println("=== TEST 1: seller findById ===");
         Seller seller = sellerDAO.findById(3);
 
         System.out.println(seller);
