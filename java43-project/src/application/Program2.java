@@ -4,6 +4,8 @@ import model.entities.Department;
 import model.entities.dao.DaoFactory;
 import model.entities.dao.DepartmentDao;
 
+import java.util.List;
+
 public class Program2 {
     public static void main(String[] args) {
 
@@ -27,6 +29,12 @@ public class Program2 {
         department.setName("Computer-Revised");
         departmentDao.update(department);
         System.out.println("Update completed");
+
+        System.out.println("=== TEST 4: department findAll ===");
+        List<Department> list = departmentDao.findAll();
+        for (Department dep : list) {
+            System.out.println(dep);
+        }
 
 
     }
