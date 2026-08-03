@@ -16,11 +16,18 @@ public class Program2 {
         System.out.println(department);
 
 
-        System.out.println("=== TEST 5: department insert ===");
+        System.out.println("=== TEST 2: department insert ===");
         Department newDepartment = new Department(null, "Macrodata Refinement");
         departmentDao.insert(newDepartment);
         System.out.println("Inserted! New id = " + newDepartment.getId() + " Department Name = " +
                 newDepartment.getName());
+
+        System.out.println("=== TEST 3: department seller update");
+        department = departmentDao.findById(1);
+        department.setName("Computer-Revised");
+        departmentDao.update(department);
+        System.out.println("Update completed");
+
 
     }
 }
