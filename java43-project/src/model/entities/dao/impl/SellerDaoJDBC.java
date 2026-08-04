@@ -107,7 +107,7 @@ public class SellerDaoJDBC implements SellerDao {
 
             //testa se id não foi encontrado
             if (rows == 0) {
-                throw new DbException("Id não encontrado");
+                throw new DbException("Id not found");
             }
         } catch (SQLException e) {
             throw new DbException(e.getMessage());
