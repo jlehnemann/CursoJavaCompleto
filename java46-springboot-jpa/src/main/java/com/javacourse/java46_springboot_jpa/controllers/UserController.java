@@ -1,4 +1,4 @@
-package com.javacourse.java46_springboot_jpa;
+package com.javacourse.java46_springboot_jpa.controllers;
 
 import com.javacourse.java46_springboot_jpa.entities.User;
 import org.springframework.http.ResponseEntity;
