@@ -1,5 +1,6 @@
 package com.javacourse.java46_springboot_jpa.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.javacourse.java46_springboot_jpa.entities.pk.OrderItemPK;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
@@ -17,10 +18,13 @@ public class OrderItem implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @EmbeddedId
-    private OrderItemPK id;
+    private final OrderItemPK id = new OrderItemPK(); //precisa ser instanciado, para não dar NullPointerException
 
     private Integer quantity;
     private Double price;
+
+    public OrderItem() {
+    }
 
     public OrderItem(Order order, Product product, Integer quantity, Double price) {
         id.setOrder(order);
@@ -29,6 +33,7 @@ public class OrderItem implements Serializable {
         this.price = price;
     }
 
+    @JsonIgnore //para evitar dependência cíclica - que causaria loop infinito e stack overflow
     public Order getOrder() {
         return id.getOrder();
     }
