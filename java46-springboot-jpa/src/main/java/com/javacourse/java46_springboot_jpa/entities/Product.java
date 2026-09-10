@@ -1,5 +1,6 @@
 package com.javacourse.java46_springboot_jpa.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.io.Serial;
@@ -27,6 +28,9 @@ public class Product implements Serializable {
     @JoinTable(name = "tb_product_category",
             joinColumns = @JoinColumn(name = "product_id"), inverseJoinColumns = @JoinColumn(name = "category_id"))
     private Set<Category> categories = new HashSet<>(); //Set para impedir repetir categorias
+
+    @OneToMany(mappedBy = "id.product")
+    private Set<OrderItem> items = new HashSet<>();
 
     public Product() {
     }
@@ -82,6 +86,15 @@ public class Product implements Serializable {
 
     public Set<Category> getCategories() {
         return categories;
+    }
+
+    @JsonIgnore //para evitar dependência cíclica
+    public Set<Order> getOrders() {
+        Set<Order> set = new HashSet<>();
+        for (OrderItem orderItem : items) {
+            set.add(orderItem.getOrder());
+        }
+        return set;
     }
 
     @Override
