@@ -66,6 +66,11 @@ public class OrderItem implements Serializable {
         this.price = price;
     }
 
+    //o get no início é exigência para que o JSON pegue o código
+    public Double getSubTotal() {
+        return price * quantity;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
