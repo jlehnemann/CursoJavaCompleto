@@ -34,6 +34,11 @@ public class Order implements Serializable {
     @OneToMany(mappedBy = "id.order") //isso pq a classe Order tem o id, e ele é da classe OrdemItemPK que tem o pedido
     private Set<OrderItem> items = new HashSet<>();
 
+    //CascadeType.ALL faz com que o id do Payment seja o mesmo do Order
+    //- é obrigatório colocar quando é OneToOne com mesmo id
+    @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)
+    private Payment payment;
+
     public Order() {
     }
 
@@ -77,6 +82,14 @@ public class Order implements Serializable {
 
     public void setClient(User client) {
         this.client = client;
+    }
+
+    public Payment getPayment() {
+        return payment;
+    }
+
+    public void setPayment(Payment payment) {
+        this.payment = payment;
     }
 
     public Set<OrderItem> getItems() {
