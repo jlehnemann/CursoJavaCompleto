@@ -1,9 +1,11 @@
 package com.javacourse.java46_springboot_jpa.services;
 
 import com.javacourse.java46_springboot_jpa.entities.User;
+import com.javacourse.java46_springboot_jpa.exceptions.DatabaseException;
 import com.javacourse.java46_springboot_jpa.exceptions.ResourceNotFoundException;
 import com.javacourse.java46_springboot_jpa.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,7 +31,18 @@ public class UserService {
     }
 
     public void delete(Long id) {
-        repository.deleteById(id);
+
+        try {
+            //busca e lança exceção se não encontrou o id - ver findById
+            findById(id);
+
+            //este tenta apagar, caso tenha erro de database, é pego no catch abaixo
+            repository.deleteById(id);
+        }
+
+        catch (DataIntegrityViolationException e) {
+            throw new DatabaseException(e.getMessage());
+        }
     }
 
     public User update(Long id, User obj) {
