@@ -4,6 +4,7 @@ import com.javacourse.java46_springboot_jpa.entities.User;
 import com.javacourse.java46_springboot_jpa.exceptions.DatabaseException;
 import com.javacourse.java46_springboot_jpa.exceptions.ResourceNotFoundException;
 import com.javacourse.java46_springboot_jpa.repositories.UserRepository;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
@@ -48,10 +49,13 @@ public class UserService {
     public User update(Long id, User obj) {
         //não consulta no banco de dados, apenas prepara o objeto monitorado para depois mexer no banco de dados
         //esse processo é mais eficiente
-        User entity = repository.getReferenceById(id);
-
-        updateData(entity, obj);
-        return repository.save(entity);
+        try{
+            User entity = repository.getReferenceById(id);
+            updateData(entity, obj);
+            return repository.save(entity);
+        } catch (EntityNotFoundException e) {
+            throw new ResourceNotFoundException(id);
+        }
     }
 
     private void updateData(User entity, User obj) {
